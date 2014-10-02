@@ -1,0 +1,132 @@
+/* FRAMING */
+
+div#headwrap {
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    height:70px;
+	background-color:#C0C0C0;
+}
+
+div#contentwrap {
+    padding:60px 0 50px 0;
+    margin-left:0;
+/*
+    voice-family: "\"}\""; 
+    voice-family:inherit;
+*/
+    margin-left:16px;
+	float: left;
+	width: 100%;
+}
+
+div#footerwrap {
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    height:50px;
+	background-color:#C0C0C0;
+}
+
+div#col1, div#col2 {
+	width:50%;
+	float:left;
+}
+
+div#col1 {
+}
+
+/* CONTENT */
+
+h2, h3 {
+    font-family:arial;
+}
+h2 {
+	margin-left:20px;
+}
+h3 {
+	margin-bottom:5px;
+	margin-top: 5px;
+}
+
+select {
+	font-family:arial;
+	font-size:10px;
+	width:110px;
+	height: 25px;
+	color:#cc0000;
+	display: inline-block;
+    padding: 5px;
+    outline: none;
+    color: #74646e;
+    border: 1px solid #C8BFC4;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+    background-color: #fff;
+	margin:0px 5px 5px 0px;
+}
+
+#jp, #mf, p {
+	margin-top:0px;
+	margin-bottom:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: inherit;
+}
+
+form {
+	font-family: Arial;
+	font-size:10px;
+	color:#cc0000;
+    color: #74646e;
+	outline:none;	
+}
+
+input {
+	padding: 5px;
+    outline: none;
+    color: #74646e;
+    border: 1px solid #C8BFC4;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+    background-color: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+/*	height: 20px;*/
+/*	width:100px;*/
+	margin: 0px 0px 5px 0px;
+}
+
+.jp7 {
+	display:none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	font-family: Arial;
+	font-size:11px;
+}
+
+.results {
+	font-family: Arial;
+	font-size:16px;
+	color:#383838;
+	padding: 10px;
+}
+
+#button{
+    display: inline-block;
+    height:25px;
+	width:102px;
+	background-color:#FFAEAE;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	padding: 5px 5px 0px 5px;
+}
+.bf {
+    font-size: 2em;
+    word-wrap: normal;
+    white-space: normal;
+}

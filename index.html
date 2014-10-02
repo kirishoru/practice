@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practice</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div id="headwrap">
+        <h2>Body Composition</h2>
+    </div>
+    <div id="contentwrap">
+        <div id="col1">
+            <div>
+                <h3>Stats</h3>
+                <p>Jackson-Pollock Method</p>
+                <select id="jp">
+                    <option value="1">JP3</option>
+                    <option value="2">JP7</option>
+                </select>
+                <br>
+                <p>Gender</p>
+                <select id="mf">
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                </select>
+            </div>
+            <div>
+                <form> 
+                    <input type="text" name="age" placeholder="Age" /><p></p>
+                    <input type="text" name="weight" placeholder="Weight(lbs)"/><p></p>
+                    <input type="text" name="chest" placeholder="Chest(mm)"/><p></p>
+                    <input type="text" name="abdominal" placeholder="Abdominal(mm)"/><p></p>
+                    <input type="text" name="thigh" placeholder="Thigh(mm)"/><p></p>
+                </form>
+                <form class="jp7">
+                    <input type="text" name="tricep" placeholder="Tricep(mm)"/><p></p>
+                    <input type="text" name="subscap" placeholder="Subscapular(mm)"/><p></p>
+                    <input type="text" name="suprail" placeholder="Suprailiac(mm)"/><p></p>
+                    <input type="text" name="midaxil" placeholder="Midaxilary(mm)"/><p></p>
+                </form>
+            </div>
+            <div id="button"><p>Calculate</p></div>
+        </div>
+        <div id="col2">
+            <h3 style="padding-left:10px">Results</h3>
+            <p style="padding-left:10px; font-size:9px; ">Click results to remove.</p>
+            <div class="results"></div>
+        </div>
+    </div>
+    <div id="footerwrap">
+        <!-- INSERT COPYRIGHT INFORMATION -->
+    </div>
+</body>
+
+</html>
