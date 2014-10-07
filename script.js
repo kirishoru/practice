@@ -23,7 +23,7 @@ $(document).ready(function () {
 	});
 
 	$('button').click(function () {
-/*		var $age = parseInt($('input[name=age]').val());
+		/*		var $age = parseInt($('input[name=age]').val());
 		var $weight = parseInt($('input[name=weight]').val());
 		var $chest = parseInt($('input[name=chest]').val());
 		var $abdominal = parseInt($('input[name=abdominal]').val());
@@ -35,7 +35,7 @@ $(document).ready(function () {
 		*/
 		var $measurements = 0;
 		var $bodyFat1 = 0;
-		
+
 		var $age = +$('#age').val();
 		var $weight = +$('#weight').val();
 		var $chest = +$('#chest').val();
@@ -45,7 +45,7 @@ $(document).ready(function () {
 		var $tricep = +$('#tricep').val();
 		var $suprail = +$('#suprail').val();
 		var $midaxil = +$('#midaxil').val();
-		
+
 
 		if ($('#mf').val() === "1") { //MALE
 			if ($('#jp').val() === "2") { //JP7
@@ -72,6 +72,9 @@ $(document).ready(function () {
 				$('.results').append("<div class='bf'><p>Body Fat = " + $bodyFat1 + "%</p><p>Fat Mass = " + (Math.round($weight * $bodyFat1) / 100) + " lbs</p></div>");
 			}
 		}
+		//add removal button
+
+
 		//commit measurements to log
 		var myDate = Date.now();
 		var myResults = {
@@ -90,8 +93,15 @@ $(document).ready(function () {
 	});
 
 
+	/*
 	$(document).on('click', '.bf', function () {
 		$(this).remove();
 	});
+*/
+
+	$(document).on('click', '#btn2', function () {
+		$('.bf').remove();
+	});
+
 
 });
