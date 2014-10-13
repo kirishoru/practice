@@ -79,6 +79,7 @@ form {
 	padding: 10px;
 }
 .bf {
+<<<<<<< Updated upstream
 	font-size: 1.25em;
 	word-wrap: normal;
 	white-space: normal;
@@ -87,6 +88,16 @@ form {
 	font-family: arial;
 	font-size: 10px;
 	width: 110px;
+=======
+    font-size: 2em;
+    word-wrap: normal;
+    white-space: normal;
+}
+.stats {
+	font-family:arial;
+	font-size:13px;
+	width:110px;
+>>>>>>> Stashed changes
 	height: 25px;
 	color: #cc0000;
 	display: inline-block;
